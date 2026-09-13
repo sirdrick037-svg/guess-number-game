@@ -9,9 +9,9 @@ This is a classic number guessing game with a twist—you can choose your diffic
 ## Features
 
 - **Three Difficulty Levels:**
-  - 🟢 **Easy**: 10 attempts
-  - 🟡 **Medium**: 7 attempts
-  - 🔴 **Hard**: 5 attempts
+  -  **Easy**: 10 attempts
+  -  **Medium**: 7 attempts
+  -  **Hard**: 5 attempts
 
 - **Input Validation**: Ensures guesses are valid numbers between 1 and 100
 - **Error Handling**: Gracefully handles invalid inputs
