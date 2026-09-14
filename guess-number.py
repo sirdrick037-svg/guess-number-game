@@ -18,20 +18,20 @@ def save_scores(scores):
         json.dump(scores, f, indent=2)
 
 def display_leaderboard(scores):
-    """Display top 10 players by score."""
+    """Display top 5 players by score."""
     if not scores:
         print("\n No scores yet! Be the first to play!")
         return
     
     print("\n" + "=" * 50)
-    print("LEADERBOARD - TOP 10 PLAYERS")
+    print("🏆 LEADERBOARD - TOP 5 PLAYERS 🏆")
     print("=" * 50)
     
     sorted_scores = sorted(
         [(name, score_data["score"], score_data["attempts"], score_data["difficulty"]) 
          for name, score_data in scores.items()],
         key=lambda x: (-x[1], x[2])
-    )[:10]
+    )[:5]
     
     for rank, (name, score, attempts, difficulty) in enumerate(sorted_scores, 1):
         print(f"{rank:2d}. {name:20s} | Score: {score:5d} | Attempts: {attempts} | Difficulty: {difficulty}")

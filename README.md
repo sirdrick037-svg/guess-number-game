@@ -94,7 +94,7 @@ Enter your guess (1-100): 62
 
 ```
 ==================================================
- LEADERBOARD - TOP 10 PLAYERS 
+ LEADERBOARD - TOP 5 PLAYERS 
 ==================================================
  1. Alice                | Score:   900 | Attempts: 3 | Difficulty: Medium
  2. Bob                  | Score:   800 | Attempts: 2 | Difficulty: Easy

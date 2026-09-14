@@ -10,5 +10,11 @@
     "attempts": 7,
     "difficulty": "Easy",
     "date": "2026-09-14 09:44:18"
+  },
+  "joshua": {
+    "score": 200,
+    "attempts": 7,
+    "difficulty": "Medium",
+    "date": "2026-09-14 10:03:32"
   }
 }
