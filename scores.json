@@ -1,0 +1,14 @@
+{
+  "TestPlayer": {
+    "score": 400,
+    "attempts": 6,
+    "difficulty": "Medium",
+    "date": "2026-09-14 09:42:11"
+  },
+  "cedrick": {
+    "score": 400,
+    "attempts": 7,
+    "difficulty": "Easy",
+    "date": "2026-09-14 09:44:18"
+  }
+}
